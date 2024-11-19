@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Okay is this working now?
+          <form><button onClick={()=>alert("clicked")}>click me</button></form>
         </p>
         <a
           className="App-link"
